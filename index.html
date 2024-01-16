@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="loginpage">
+        <form class="login_form">
+            <legend class="login__title">LoginPage</legend>
+            <div class="user_card">
+                <p class="label">Username</p>
+                <input type="text" name="username" id="username" class="input__username" required = "required">
+
+            </div>
+            <div class="password_card">
+                <p class="label">Password</p>
+                <input type="password" name="password" id="password" class="input__password" required = "required">
+            </div>
+            <input type="submit" value="submit" class="submit">
+        </form>
+        <div class="import_user">
+            <div class="import_user_info">
+                <h3 class="username_import">Username:</h3>
+            <p class="import__text"></p>
+            </div>
+            <div class="import_user_btn">
+            <button class="delet">Delet</button>
+            <button class="edit">Edit</button>
+        </div>
+        </div>
+        <div class="import_pass">
+            <div class="import_pass_info">
+                <h3 class="password_import">Password:</h3>
+            <p class="import__text_pass"></p>
+            </div>
+            <div class="import_pass_btn">
+            <button class="delet_pass">Delet</button>
+            <button class="edit_pass">Edit</button>
+        </div>
+        </div>
+        
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

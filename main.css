@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./bg_img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.loginpage{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    transform: translateY(30%);
+    border: 1px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 500px;
+    height: 550px;
+}
+
+.login_form{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  transform: translateY(10%);
+}
+
+.login__title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.user_card{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.input__username{
+    font-size: 18px;
+    max-width: 200px;
+    height: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    
+}
+
+.label{
+    font-size: 17px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: burlywood;
+}
+
+.password_card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.input__password{
+    font-size: 18px;
+    max-width: 200px;
+    height: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.submit{
+    background-color: transparent;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid blue;
+    font-size: 18px;
+    color: burlywood;
+}
+
+.submit:active{
+    transform: scale(0.7);
+    transition: all 1s ease;
+}
+
+.import_user{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.import_user_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 110px;
+    margin-bottom: 10px;
+}
+
+.username_import{
+    color: aliceblue;
+}
+.import__text{
+    color: aliceblue;
+    font-size: 17px;
+}
+
+.delet{
+    display: none;
+    width: 100px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid blue;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.delet:active{
+    transform: scale(0.8);
+}
+
+.edit{
+    display: none;
+    width: 100px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid blue;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.edit:active{
+    transform: scale(0.8);
+}
+
+.import_pass{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.import_pass_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 110px;
+    margin-bottom: 10px;
+}
+
+.password_import{
+    color: aliceblue;
+}
+.import__text_pass{
+    color: aliceblue;
+}
+
+.delet_pass{
+    display: none;
+    width: 100px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid blue;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.delet_pass:active{
+    transform: scale(0.8);
+}
+
+.edit_pass{
+    display: none;
+    width: 100px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid blue;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.edit_pass:active{
+    transform: scale(0.8);
+}
+
+
+
+
+
+
+
+
+
